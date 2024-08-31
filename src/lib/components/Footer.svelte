@@ -3,15 +3,15 @@
         import { page } from "$app/stores";
         import Github from "$lib/icons/github.svelte";
         import Tele from "$lib/icons/tele.svelte";
-        import number from "$lib/icons/number.svelte";
-    import Number from "$lib/icons/number.svelte";
+        import Number from "$lib/icons/number.svelte";
 
 
 
 </script>
 
 
-<footer class="bg-background text-foreground py-5 px-5">
+<footer class="bg-background text-foreground py-2 px-5">
+
     <div class="max-w-screen-2xl flex justify-between items-center mx-auto text-primary-foreground">
 
 

@@ -24,9 +24,9 @@
             <Flower/>
         </div>
         <Button
-        class="{$page.url.pathname == '/shaima' &&
+        class="{$page.url.pathname == '/' &&
                 'text-accent'}" 
-        href="/shaima" 
+        href="/" 
         variant="link">
          
             Shaima Fuad

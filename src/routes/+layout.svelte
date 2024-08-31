@@ -12,6 +12,8 @@
 
 <ModeWatcher />
 
-<slot></slot>
+<main class="min-h-[calc(100vh-7rem)]">
+    <slot></slot>
+</main>
 
 <Footer></Footer>
