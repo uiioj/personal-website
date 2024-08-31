@@ -45,23 +45,22 @@
         variant="link">
             <Tele />
         </Button>
+
+
         <div
          class="text-primary text-2xl text-primary/40 font-thin"> 
-         
-         <!--هذا الخط اللي بين الرسومات والكلمات-->
+         <!--الفاصل-->
          |
         </div>
 
         <Button 
-        class="text-lg  {$page.url.pathname == '/tel:0556540378' &&
+        class="text-lg {$page.url.pathname == '/tel:0556540378' &&
                 'text-accent'}" 
         href="tel:0556540378" 
         variant="link">
            <Number/>
         </Button>
-
-        
-</span>
+    </span>
 
 
 
