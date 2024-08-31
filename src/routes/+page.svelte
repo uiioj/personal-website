@@ -3,8 +3,6 @@
 
     import Button from "$lib/components/ui/button/button.svelte";
     import { page } from "$app/stores";
-    import UQU from "$lib/icons/UQU.svelte";
-    import Computer from "$lib/icons/computer.svelte";
     import Container from "$lib/components/Container.svelte";
     import Arrow from "$lib/icons/arrow.svelte";
     
@@ -46,9 +44,9 @@
       style="text-decoration:underline;text-decoration-color:tomato;"        
       href="https://www.mtu.edu/cs/what/" 
       variant="link">
-       Computer Science
+       Computer Science 🖥️
   </Button>
-   <Computer/>
+  
   
   
   
