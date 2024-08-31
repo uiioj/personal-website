@@ -7,6 +7,7 @@
 	import Computer from "$lib/icons/computer.svelte";
 	import Container from "$lib/components/Container.svelte";
 	import Arrow from "$lib/icons/arrow.svelte";
+    import ProjectCard from "$lib/components/ProjectCard.svelte";
 
 
 </script>
@@ -60,14 +61,16 @@
 					style="text-decoration: underline;text-decoration-color:tomato;"
 					href="https://uqu.edu.sa/"
 					variant="link">
-					Um Al-Qura
+					Um Al-Qura <div class="m-1">
+						<UQU/>
+					</div>
 
 				</Button>
 				University
 
 			</div>
 
-			I graduated from
+			I graduated 🎓 from
 			<Button
 				class=" text-md {$page.url.pathname == '/https://x.com/moe_mhc_25_3003?lang=ar' &&
           'text-accent'} px-0 w-fit hover:text-[#f16349] "
@@ -80,22 +83,108 @@
 		</div>
 
 		<div class="flex items-end justify-end">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img class="h-auto w-auto min-w-96 mt-16" src="/image3.webp" alt="image"/>
 
 		</div>
 
-	</div>
+	</div><!--خلصنا الاولى -->
 
 
-	<div>
-		<div class="text-secondary-foreground font-bold text-3xl px-10 animate-text flex gap-2">
+	<div class=""> <!--الثانيه-->
+		<div class="text-secondary-foreground font-bold text-3xl px-10 animate-text flex gap-2 animate-text ">
 			CHECK OUT MY PROJECTS
 			<Arrow/>
 		</div>
-		<Container>
 
+    
+		<div class=" md:flex justify-center items-center">
+			<Container >
+				<div class=" rounded-full flex items-center justify-center shadow-xl h-[20rem] w-[20rem] bg-secondary ">
+	
+					<!-- svelte-ignore a11y-missing-attribute -->
+					 
+					<img src="/calculator.png" class=" h-[20rem] w-[20rem] "/>
+				</div>
+				<div>
+				<ProjectCard >
+					<div class="text-2xl font-semibold text-secondary-foreground">
+						Calculator</div> 
+	
+					<div >
+						<div class="m-4 text-lg text-secondary-foreground">
+						<div>▪️ Easy to use</div>
+						<div>▪️ Fast and helpful</div>
+						<div>▪️ Accuracy in results </div>
+						<div>▪️ Attention in details</div>
+	
+						</div>
+					
+						
+					
+					<Button
+						class=" text-md {$page.url.pathname == '/https://bright-manatee-72e92c.netlify.app/' &&
+				   'text-accent'} px-0 w-16 rounded-2xl"
+						
+						href="https://bright-manatee-72e92c.netlify.app/">
+						try it!
+						
+					
+	
+					</Button>
+					
+				</ProjectCard>
+			</div>
+		
 		</Container>
+	
+	
+	
+	
+	
+			<Container >
+				<div class=" rounded-full flex justify-center items-center shadow-xl h-[20rem] w-[20rem] bg-secondary ">
+	
+					<!-- svelte-ignore a11y-missing-attribute -->
+					<img src="/todolist.png" class="h-[20rem] w-[20rem]"/>
+				</div>
+				<ProjectCard >
+	
+					<div class="text-2xl font-semibold text-secondary-foreground">
+						To-Do-List</div> 
+	
+					<div >
+						<div class="m-4 text-lg text-secondary-foreground">
+	
+						<div>▪️ Time management</div>
+						<div>▪️ Security and privacy</div>
+						<div>▪️ Accurate time setting</div>
+						<div>▪️ Consistency and arrangement</div>
+	
+						</div>
+					
+						
+					
+					<Button
+						class=" text-md {$page.url.pathname == '/https://todolistshaima.netlify.app/' &&
+				   'text-accent'} px-0 w-16 rounded-2xl"
+						
+						href="https://todolistshaima.netlify.app/">
+						try it!
+						
+					
+	
+					</Button>
+					
+	
+	
+				</ProjectCard>
+			</Container>
+	
+		</div>
 
+
+	   
 
 	</div>
 </div>

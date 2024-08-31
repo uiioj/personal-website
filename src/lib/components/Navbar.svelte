@@ -43,17 +43,17 @@
        
 
         <Button 
-        class=" hidden sm:flex {$page.url.pathname == '/resume' &&
+        class=" hidden sm:flex {$page.url.pathname == '/CV.pdf' &&
                 'text-accent'}"
-        href="/resume" 
+        href="/CV.pdf" 
         variant="link">
             Resume
         </Button> <!--السيرة بالخط -->
 
         <Button 
-        class=" text-xl {$page.url.pathname == '/resume' &&
+        class=" text-xl {$page.url.pathname == '/CV.pdf' &&
                 'text-accent'} flex sm:hidden" 
-        href="/resume" 
+        href="/CV.pdf" 
         variant="link">
             <Resume/>
         </Button> <!--السيرة بالرمز -->

@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="max-w-screen-md px-4 mx-auto pt-16 py-16 text-secondary-foreground flex flex-col gap-7 md:flex-none "><!--حقهم كلهم -->
+<div class="max-w-screen-md px-4 mx-auto pt-16 py-16 text-secondary-foreground flex flex-col gap-7 "><!--حقهم كلهم -->
 
 
     <h1 class=" mx-auto w-fit text-4xl font-bold">
@@ -18,11 +18,29 @@
    </AboutCard>
 
    <AboutCard >
-    هنا احط الكتب 
+    <div class="flex flex-col md:flex-row">
+        <!--البوكس حق الكتب-->
+
+        <div class="text-xl font-semibold">
+         My through lists
+        
+        </div>
+
+        <div> 
+            الكتب اللي قراتها
+         </div>
+         <div>
+            اللي لسا ماخلصتها
+         </div>
+
+
+    </div>
    </AboutCard>
 
    <AboutCard>
     هنا الجوائز مثلا 
+    اسوي نفس حق الكتب اذا في اكثر من شي 
+    قصدي حق flex...
    </AboutCard>
 
    <AboutCard>
