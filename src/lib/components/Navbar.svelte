@@ -8,6 +8,7 @@
     import Github from "$lib/icons/github.svelte";
     import Flower from "$lib/icons/flower.svelte";
     import { page } from "$app/stores";
+    import ThemeSwitch from "./themeSwitch.svelte";
 
 
    
@@ -24,18 +25,25 @@
         </div>
         <Button
         class="{$page.url.pathname == '/shaima' &&
-                'text-accent'} flex md:hidden" 
+                'text-accent'}" 
         href="/shaima" 
         variant="link">
          
             Shaima Fuad
 
         </Button>
+        <ThemeSwitch/>
     </div>
 
+
     
-    <Button 
-        class=" {$page.url.pathname == '/resume' &&
+   <div class="flex">
+    <div class="flex">
+
+       
+
+        <Button 
+        class=" hidden sm:flex {$page.url.pathname == '/resume' &&
                 'text-accent'}"
         href="/resume" 
         variant="link">
@@ -44,14 +52,14 @@
 
         <Button 
         class=" text-xl {$page.url.pathname == '/resume' &&
-                'text-accent'} flex md:hidden" 
+                'text-accent'} flex sm:hidden" 
         href="/resume" 
         variant="link">
             <Resume/>
         </Button> <!--السيرة بالرمز -->
 
         <Button 
-        class=" {$page.url.pathname == '/about' &&
+        class=" hidden sm:flex {$page.url.pathname == '/about' &&
                 'text-accent'}" 
         href="/about" 
         variant="link">
@@ -60,11 +68,12 @@
 
         <Button 
         class=" text-xl {$page.url.pathname == '/about' &&
-                'text-accent'} flex md:hidden" 
+                'text-accent'} flex sm:hidden" 
         href="/about" 
         variant="link">
             <Info/>
         </Button> <!--المعلومات بالرمز -->
+    </div>
     
 
 
@@ -76,25 +85,27 @@
          |
         </div>
 
-        <Button 
-        class="text-2xl {$page.url.pathname == '/https://github.com/uiioj' &&
+        <div>
+            <Button 
+        class="text-xl {$page.url.pathname == '/https://github.com/uiioj' &&
                 'text-accent'}" 
-        href="/https://github.com/uiioj" 
+        href="https://github.com/uiioj" 
         variant="link">
             <Github />
         </Button>
 
         <Button 
-        class="text-xl {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
+        class="text-lg {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
                 'text-accent'}" 
-        href="/https://web.telegram.org/k/#@qur7illl" 
+        href="https://web.telegram.org/k/#@qur7illl" 
         variant="link">
             <Tele />
         </Button>
+        </div>
 
+   </div>
     
-
-        
-
-
 </nav>
+
+
+
