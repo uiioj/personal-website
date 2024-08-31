@@ -5,8 +5,12 @@
 
 
 
+
 </script>
+
 <div class="bg-secondary p-8 shadow-xl">
+
+  
 
    <slot/>
 

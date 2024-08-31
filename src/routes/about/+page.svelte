@@ -1,6 +1,7 @@
 <script lang="ts">
     import Button from "$lib/components/ui/button/button.svelte";
-    import AboutCard from "$lib/components/AboutCard.svelte";
+    import AboutCard from "$lib/components/AboutCard.svelte"
+    
 
 </script>
 
@@ -11,12 +12,12 @@
         NICE TO MEET YOU!
     </h1>
 
-    <AboutCard>
+    <AboutCard >
 هنا اسولف عن نفسي    
 
    </AboutCard>
 
-   <AboutCard>
+   <AboutCard >
     هنا احط الكتب 
    </AboutCard>
 
