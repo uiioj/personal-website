@@ -28,10 +28,10 @@
   </style>
 
 
-<div class=" text-secondary-foreground ont-semibold p-16 px-10 flex items-center justify-between flex-row animate-text "> <!--الفقرة الاولى-->
+<div class=" text-secondary-foreground font-semibold p-10 px-10 flex items-center justify-between flex-row animate-text "> <!--الفقرة الاولى-->
 
   <div>
-    <div class="text-3xl font-bold">
+    <div class="text-3xl font-bold my-8">
         HELLO!
     </div>
 
