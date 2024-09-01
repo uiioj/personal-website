@@ -119,8 +119,7 @@
 						<div>Attention in details</div>
 	
 						</div>
-					
-						
+				
 					
 					<Button
 						class=" text-md{$page.url.pathname == '/https://bright-manatee-72e92c.netlify.app/' &&
