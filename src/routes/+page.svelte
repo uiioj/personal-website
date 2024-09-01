@@ -34,7 +34,7 @@
 
 
 	<div
-		class=" text-secondary-foreground font-semibold p-10 px-10 flex items-center justify-between flex-col sm:flex-row animate-text ">
+		class=" text-secondary-foreground font-semibold p-10 px-10 flex items-center justify-between flex-col sm:flex-row animate-text max-w-screen-xl mx-auto">
 		<!--الفقرة الاولى-->
 
 		<div>
@@ -91,7 +91,7 @@
 	</div><!--خلصنا الاولى -->
 
 
-	<div class=""> <!--الثانيه-->
+	<div class="max-w-screen-xl mx-auto"> <!--الثانيه-->
 		<div class="text-secondary-foreground font-bold text-3xl px-10 animate-text flex gap-2 animate-text ">
 			CHECK OUT MY PROJECTS
 			<Arrow/>
@@ -100,7 +100,7 @@
     
 		<div class=" md:flex justify-center items-center">
 			<Container >
-				<div class=" rounded-full flex items-center justify-center shadow-xl h-[20rem] w-[20rem] bg-secondary ">
+				<div class=" rounded-full flex items-center justify-center shadow-xl h-[20rem] w-[20rem] bg-secondary mx-auto">
 	
 					<!-- svelte-ignore a11y-missing-attribute -->
 					 
@@ -108,15 +108,15 @@
 				</div>
 				<div>
 				<ProjectCard >
-					<div class="text-2xl font-semibold text-secondary-foreground">
+					<div class="text-2xl font-semibold text-secondary-foreground text-center">
 						Calculator</div> 
 	
 					<div >
-						<div class="m-4 text-lg text-secondary-foreground">
-						<div>▪️ Easy to use</div>
-						<div>▪️ Fast and helpful</div>
-						<div>▪️ Accuracy in results </div>
-						<div>▪️ Attention in details</div>
+						<div class="m-4 text-lg text-secondary-foreground text-center">
+						<div>▪️ Easy to use ▪️</div>
+						<div>▪️ Fast and helpful ▪️</div>
+						<div>▪️ Accuracy in results ▪️</div>
+						<div>▪️ Attention in details ▪️</div>
 	
 						</div>
 					
@@ -150,16 +150,16 @@
 				</div>
 				<ProjectCard >
 	
-					<div class="text-2xl font-semibold text-secondary-foreground">
+					<div class="text-2xl font-semibold text-secondary-foreground text-center">
 						To-Do-List</div> 
 	
 					<div >
-						<div class="m-4 text-lg text-secondary-foreground">
+						<div class="m-4 text-lg text-secondary-foreground text-center">
 	
-						<div>▪️ Time management</div>
-						<div>▪️ Security and privacy</div>
-						<div>▪️ Accurate time setting</div>
-						<div>▪️ Consistency and arrangement</div>
+						<div>▪️ Time management ▪️</div>
+						<div>▪️ Security and privacy ▪️</div>
+						<div>▪️ Accurate time setting ▪️</div>
+						<div>▪️ Consistency and arrangement ▪️</div>
 	
 						</div>
 					
@@ -182,10 +182,6 @@
 			</Container>
 	
 		</div>
-
-
-	   
-
 	</div>
 </div>
 
