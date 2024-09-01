@@ -51,7 +51,7 @@
             </Button> <!--السيرة بالخط -->
     
             <Button 
-            class=" text-xl {$page.url.pathname == '/CV.pdf' &&
+            class=" text-xl  {$page.url.pathname == '/CV.pdf' &&
                     'text-accent'} flex sm:hidden" 
             href="/CV.pdf" 
             variant="link">
@@ -79,7 +79,7 @@
     
         
             <div
-             class="text-primary text-2xl text-primary/40 font-thin"> 
+             class="text-primary text-2xl text-primary/40 font-thin hidden sm:flex"> 
              
              <!--هذا الخط اللي بين الرسومات والكلمات-->
              |
@@ -87,7 +87,7 @@
     
             <div>
                 <Button 
-            class="text-xl {$page.url.pathname == '/https://github.com/uiioj' &&
+            class="text-xl hidden sm:flex {$page.url.pathname == '/https://github.com/uiioj' &&
                     'text-accent'}" 
             href="https://github.com/uiioj" 
             variant="link">
@@ -95,7 +95,7 @@
             </Button>
     
             <Button 
-            class="text-lg {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
+            class="text-md  hidden sm:flex {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
                     'text-accent'}" 
             href="https://web.telegram.org/k/#@qur7illl" 
             variant="link">
