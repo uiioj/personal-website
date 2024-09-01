@@ -43,7 +43,8 @@
 			</div>
 
 			<div class="flex items-center text-nowrap flex-wrap gap-1.5">
-				I'm Shaima - a
+				<div>
+					I'm Shaima - a
 				<Button
 					class="text-md font-semibold {$page.url.pathname == '/https://www.mtu.edu/cs/what/' && 'text-accent'} px-0 w-fit hover:text-[#f16349] "
 					style="text-decoration:underline;text-decoration-color:tomato;"
@@ -52,9 +53,10 @@
 					Computer Science
 				</Button>
 				<Computer/>
+				</div>
 
-
-				Student at
+				 <div>
+					Student at
 				<Button
 					class=" text-md font-semibold {$page.url.pathname == 'https://uqu.edu.sa/' &&
                'text-accent'} px-0 w-fit hover:text-[#f16349] "
@@ -67,13 +69,11 @@
 
 				</Button>
 				University
-
-
-
-				
+				 </div>
 			</div>
 
-			I graduated 🎓 from
+			<div>
+				I graduated 🎓 from
 			<Button
 				class=" text-md  font-semibold {$page.url.pathname == '/https://x.com/moe_mhc_25_3003?lang=ar' &&
           'text-accent'} px-0 w-fit hover:text-[#f16349] "
@@ -83,6 +83,7 @@
 				Second high school
 			</Button>
 			with a GPA of 99.78%
+			</div>
 		</div>
 
 		<div class="flex items-end justify-end">
