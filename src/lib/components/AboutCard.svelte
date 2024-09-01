@@ -8,7 +8,7 @@
 
 </script>
 
-<div class="bg-secondary p-8 shadow-xl">
+<div class=" rounded-3xl bg-secondary p-8 shadow-xl">
 
   
 
