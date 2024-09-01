@@ -56,7 +56,7 @@
 
 				Student at
 				<Button
-					class=" text-md {$page.url.pathname == 'https://uqu.edu.sa/' &&
+					class=" text-md font-semibold {$page.url.pathname == 'https://uqu.edu.sa/' &&
                'text-accent'} px-0 w-fit hover:text-[#f16349] "
 					style="text-decoration: underline;text-decoration-color:tomato;"
 					href="https://uqu.edu.sa/"
@@ -72,7 +72,7 @@
 
 			I graduated 🎓 from
 			<Button
-				class=" text-md {$page.url.pathname == '/https://x.com/moe_mhc_25_3003?lang=ar' &&
+				class=" text-md  font-semibold {$page.url.pathname == '/https://x.com/moe_mhc_25_3003?lang=ar' &&
           'text-accent'} px-0 w-fit hover:text-[#f16349] "
 				style="text-decoration: underline;text-decoration-color:tomato;"
 				href="https://x.com/moe_mhc_25_3003?lang=ar"
@@ -154,7 +154,7 @@
 	
 
 
-						
+
 					<div >
 						<div class="m-4 text-lg text-secondary-foreground text-center">
 	
