@@ -123,8 +123,8 @@
 						
 					
 					<Button
-						class=" text-md {$page.url.pathname == '/https://bright-manatee-72e92c.netlify.app/' &&
-				   'text-accent'} px-0 w-16 rounded-2xl"
+						class=" text-md{$page.url.pathname == '/https://bright-manatee-72e92c.netlify.app/' &&
+				   'text-accent'} px-0 w-full rounded-2xl "
 						
 						href="https://bright-manatee-72e92c.netlify.app/">
 						try it!
@@ -167,7 +167,7 @@
 					
 					<Button
 						class=" text-md {$page.url.pathname == '/https://todolistshaima.netlify.app/' &&
-				   'text-accent'} px-0 w-16 rounded-2xl"
+				   'text-accent'} px-0 w-full rounded-2xl "
 						
 						href="https://todolistshaima.netlify.app/">
 						try it!
