@@ -58,7 +58,7 @@
 
 
 
-				
+
 				 <div>
 					Student at
 				<Button
@@ -129,7 +129,7 @@
 					
 					<Button
 						class=" text-md{$page.url.pathname == '/https://bright-manatee-72e92c.netlify.app/' &&
-				   'text-accent'} px-0 w-full rounded-2xl "
+				   'text-accent'} px-0 w-full rounded-2xl text-secondary-foreground"
 						
 						href="https://bright-manatee-72e92c.netlify.app/">
 						try it!
