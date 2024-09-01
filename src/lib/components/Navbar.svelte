@@ -18,7 +18,7 @@
     <nav
         class="flex justify-between h-fit bg-secondary text-secondary-foreground py-1 px-4"
     >
-        <div class="flex items-center gap-2 text-xl">
+        <div class="flex items-center text-xl">
     
             <div>
                 <Flower/>
@@ -37,7 +37,7 @@
     
     
         
-       <div class="flex">
+       <div class="flex ">
         <div class="flex">
     
            
