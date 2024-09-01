@@ -113,10 +113,10 @@
 	
 					<div >
 						<div class="m-4 text-lg text-secondary-foreground text-center">
-						<div>▪️ Easy to use ▪️</div>
-						<div>▪️ Fast and helpful ▪️</div>
-						<div>▪️ Accuracy in results ▪️</div>
-						<div>▪️ Attention in details ▪️</div>
+						<div> Easy to use</div>
+						<div>Fast and helpful </div>
+						<div>Accuracy in results</div>
+						<div>Attention in details</div>
 	
 						</div>
 					
@@ -156,10 +156,10 @@
 					<div >
 						<div class="m-4 text-lg text-secondary-foreground text-center">
 	
-						<div>▪️ Time management ▪️</div>
-						<div>▪️ Security and privacy ▪️</div>
-						<div>▪️ Accurate time setting ▪️</div>
-						<div>▪️ Consistency and arrangement ▪️</div>
+						<div> Time management </div>
+						<div> Security and privacy </div>
+						<div> Accurate time setting </div>
+						<div>Consistency and arrangement </div>
 	
 						</div>
 					
