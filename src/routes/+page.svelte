@@ -50,9 +50,9 @@
 					style="text-decoration:underline;text-decoration-color:tomato;"
 					href="https://www.mtu.edu/cs/what/"
 					variant="link">
-					Computer Science
+					Computer Science 🖥️
 				</Button>
-				<Computer/>
+			
 				</div>
 
 				 <div>
@@ -63,9 +63,7 @@
 					style="text-decoration: underline;text-decoration-color:tomato;"
 					href="https://uqu.edu.sa/"
 					variant="link">
-					Um Al-Qura <div class="m-1">
-						<UQU/>
-					</div>
+					Um Al-Qura 
 
 				</Button>
 				University
