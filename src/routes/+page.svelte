@@ -45,7 +45,7 @@
 			<div class="flex items-center text-nowrap flex-wrap gap-1.5">
 				I'm Shaima - a
 				<Button
-					class="text-md {$page.url.pathname == '/https://www.mtu.edu/cs/what/' && 'text-accent'} px-0 w-fit hover:text-[#f16349] "
+					class="text-md font-semibold {$page.url.pathname == '/https://www.mtu.edu/cs/what/' && 'text-accent'} px-0 w-fit hover:text-[#f16349] "
 					style="text-decoration:underline;text-decoration-color:tomato;"
 					href="https://www.mtu.edu/cs/what/"
 					variant="link">
