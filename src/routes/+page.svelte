@@ -143,7 +143,7 @@
 	
 	
 			<Container >
-				<div class=" rounded-full flex justify-center items-center shadow-xl h-[20rem] w-[20rem] bg-secondary ">
+				<div class=" rounded-full flex justify-center items-center shadow-xl h-[20rem] w-[20rem] bg-secondary mx-auto ">
 	
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<img src="/todolist.png" class="h-[20rem] w-[20rem]"/>
