@@ -51,10 +51,10 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          سابغات 📙</Dialog.Title
                                     >
-                                    <Dialog.Description class="text-center">
+                                    <Dialog.Description class="text-center ">
                                         الكتاب الجيد عملة صعبة، وبخاصة عندما
                                         تبحث فيه عن الجِدّة والمعاصرة، مع قوة
                                         المضمون، وجمال الأسلوب. هنا يمكن أن أقول
@@ -88,7 +88,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          فاتتني صلاة 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -116,7 +116,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          الحفرة السعيدة 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -145,7 +145,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          فقه الأسماء الحسنى 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -178,7 +178,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          لأنك الله 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -211,7 +211,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          الداء والدواء 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -247,7 +247,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          رياض الصالحين 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
@@ -278,7 +278,7 @@
                             >
                             <Dialog.Content>
                                 <Dialog.Header>
-                                    <Dialog.Title class="text-center">
+                                    <Dialog.Title class="text-center text-secondary-foreground">
                                          المنهاج من ميراث النبوة 📙</Dialog.Title
                                     >
                                     <Dialog.Description class="text-center">
