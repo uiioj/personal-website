@@ -34,7 +34,7 @@
             </div>
 
             <!--البوكس حق الكتب-->
-            <div class="flex justify-center items-center text-center">
+            <div class="flex flex-col sm:flex-none justify-center items-center text-center">
                 <div class="m-5">
                     <!--البوكس الاول-->
 

@@ -85,9 +85,9 @@
              |
             </div>
     
-            <div>
+            <div class="flex">
                 <Button 
-            class="text-xl hidden sm:flex {$page.url.pathname == '/https://github.com/uiioj' &&
+            class="text-xl hidden sm:block {$page.url.pathname == '/https://github.com/uiioj' &&
                     'text-accent'}" 
             href="https://github.com/uiioj" 
             variant="link">
@@ -95,7 +95,7 @@
             </Button>
     
             <Button 
-            class="text-md  hidden sm:flex {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
+            class="text-md hidden sm:block  {$page.url.pathname == '/https://web.telegram.org/k/#@qur7illl' &&
                     'text-accent'}" 
             href="https://web.telegram.org/k/#@qur7illl" 
             variant="link">
