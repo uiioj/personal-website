@@ -90,7 +90,7 @@
 
 		<div class="flex items-end justify-end">
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img class="h-auto w-auto min-w-96 mt-16" src="/image2.webp" alt="image"/>
+			<img class="h-auto w-auto min-w-96 mt-16" src="/image3.webp" alt="image"/>
 
 		</div>
 
